@@ -79,7 +79,7 @@ namespace NumbersGame
                     Console.WriteLine("Incorrect! ");
                 }
                 if (GuessNum < RightNum)
-                {
+                { 
                     Console.Write("To low.");
                 }
                 if (GuessNum > RightNum)
